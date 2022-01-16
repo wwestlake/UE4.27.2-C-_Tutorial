@@ -1,0 +1,11 @@
+D:\Videos\UE4 C++ Course\Projects\Tutorial\UE_CPP_Tutorial_1\Intermediate\Build\Win64\UE4Editor\Development\UE_CPP_Tutorial_1\Definitions.UE_CPP_Tutorial_1.h
+D:\Videos\UE4 C++ Course\Projects\Tutorial\UE_CPP_Tutorial_1\Source\UE_CPP_Tutorial_1\UE_CPP_Tutorial_1Projectile.h
+D:\Videos\UE4 C++ Course\Projects\Tutorial\UE_CPP_Tutorial_1\Intermediate\Build\Win64\UE4Editor\Inc\UE_CPP_Tutorial_1\UE_CPP_Tutorial_1Projectile.generated.h
+E:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/ProjectileMovementComponent.h
+E:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
+E:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
+E:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ProjectileMovementComponent.generated.h
+E:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
+E:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+E:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+E:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SphereComponent.generated.h

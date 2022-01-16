@@ -1,0 +1,977 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "UE_CPP_Tutorial_1 Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"Win32",
+				"Debug",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"Win32",
+				"Debug",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE_CPP_Tutorial_1 Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"Win32",
+				"Debug",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"Win32",
+				"DebugGame",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"Win32",
+				"DebugGame",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE_CPP_Tutorial_1 Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"Win32",
+				"DebugGame",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"Win32",
+				"Development",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"Win32",
+				"Development",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE_CPP_Tutorial_1 Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"Win32",
+				"Development",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"Win32",
+				"Shipping",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"Win32",
+				"Shipping",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE_CPP_Tutorial_1 Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"Win32",
+				"Shipping",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"Win32",
+				"Test",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"Win32",
+				"Test",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE_CPP_Tutorial_1 Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"Win32",
+				"Test",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"Win64",
+				"Debug",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"Win64",
+				"Debug",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE_CPP_Tutorial_1 Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"Win64",
+				"Debug",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"Win64",
+				"DebugGame",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"Win64",
+				"DebugGame",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE_CPP_Tutorial_1 Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"Win64",
+				"DebugGame",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"Win64",
+				"Development",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"Win64",
+				"Development",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE_CPP_Tutorial_1 Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"Win64",
+				"Development",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"Win64",
+				"Shipping",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"Win64",
+				"Shipping",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE_CPP_Tutorial_1 Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"Win64",
+				"Shipping",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"Win64",
+				"Test",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"Win64",
+				"Test",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE_CPP_Tutorial_1 Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"Win64",
+				"Test",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 IOS Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"IOS",
+				"Debug",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"IOS",
+				"Debug",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE_CPP_Tutorial_1 IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 IOS Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"IOS",
+				"Debug",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"IOS",
+				"DebugGame",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"IOS",
+				"DebugGame",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE_CPP_Tutorial_1 IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"IOS",
+				"DebugGame",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 IOS Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"IOS",
+				"Development",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"IOS",
+				"Development",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE_CPP_Tutorial_1 IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 IOS Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"IOS",
+				"Development",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 IOS Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"IOS",
+				"Shipping",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"IOS",
+				"Shipping",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE_CPP_Tutorial_1 IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"IOS",
+				"Shipping",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 IOS Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"IOS",
+				"Test",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"IOS",
+				"Test",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE_CPP_Tutorial_1 IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1 IOS Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE_CPP_Tutorial_1",
+				"IOS",
+				"Test",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1Editor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE_CPP_Tutorial_1Editor",
+				"Win64",
+				"Debug",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1Editor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE_CPP_Tutorial_1Editor",
+				"Win64",
+				"Debug",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE_CPP_Tutorial_1Editor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1Editor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE_CPP_Tutorial_1Editor",
+				"Win64",
+				"Debug",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1Editor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE_CPP_Tutorial_1Editor",
+				"Win64",
+				"DebugGame",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1Editor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE_CPP_Tutorial_1Editor",
+				"Win64",
+				"DebugGame",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE_CPP_Tutorial_1Editor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1Editor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE_CPP_Tutorial_1Editor",
+				"Win64",
+				"DebugGame",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1Editor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE_CPP_Tutorial_1Editor",
+				"Win64",
+				"Development",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1Editor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE_CPP_Tutorial_1Editor",
+				"Win64",
+				"Development",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE_CPP_Tutorial_1Editor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "UE_CPP_Tutorial_1Editor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE_CPP_Tutorial_1Editor",
+				"Win64",
+				"Development",
+				"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		}
+	]
+}

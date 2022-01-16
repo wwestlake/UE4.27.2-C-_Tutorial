@@ -1,0 +1,23 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-UE_CPP_Tutorial_1-8891.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Videos\UE4 C++ Course\Projects\Tutorial\UE_CPP_Tutorial_1\Intermediate\Build\Win64\UE_CPP_Tutorial_1Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Videos\UE4 C++ Course\Projects\Tutorial\UE_CPP_Tutorial_1\Intermediate\Build\Win64\UE4Editor\Development\UE_CPP_Tutorial_1\RandomizerBlueprintLibrary.cpp.obj"
+"D:\Videos\UE4 C++ Course\Projects\Tutorial\UE_CPP_Tutorial_1\Intermediate\Build\Win64\UE4Editor\Development\UE_CPP_Tutorial_1\UE_CPP_Tutorial_1.cpp.obj"
+"D:\Videos\UE4 C++ Course\Projects\Tutorial\UE_CPP_Tutorial_1\Intermediate\Build\Win64\UE4Editor\Development\UE_CPP_Tutorial_1\UE_CPP_Tutorial_1Character.cpp.obj"
+"D:\Videos\UE4 C++ Course\Projects\Tutorial\UE_CPP_Tutorial_1\Intermediate\Build\Win64\UE4Editor\Development\UE_CPP_Tutorial_1\UE_CPP_Tutorial_1GameMode.cpp.obj"
+"D:\Videos\UE4 C++ Course\Projects\Tutorial\UE_CPP_Tutorial_1\Intermediate\Build\Win64\UE4Editor\Development\UE_CPP_Tutorial_1\UE_CPP_Tutorial_1HUD.cpp.obj"
+"D:\Videos\UE4 C++ Course\Projects\Tutorial\UE_CPP_Tutorial_1\Intermediate\Build\Win64\UE4Editor\Development\UE_CPP_Tutorial_1\UE_CPP_Tutorial_1Projectile.cpp.obj"
+"D:\Videos\UE4 C++ Course\Projects\Tutorial\UE_CPP_Tutorial_1\Intermediate\Build\Win64\UE4Editor\Development\UE_CPP_Tutorial_1\RandomizerBlueprintLibrary.gen.cpp.obj"
+"D:\Videos\UE4 C++ Course\Projects\Tutorial\UE_CPP_Tutorial_1\Intermediate\Build\Win64\UE4Editor\Development\UE_CPP_Tutorial_1\UE_CPP_Tutorial_1.init.gen.cpp.obj"
+"D:\Videos\UE4 C++ Course\Projects\Tutorial\UE_CPP_Tutorial_1\Intermediate\Build\Win64\UE4Editor\Development\UE_CPP_Tutorial_1\UE_CPP_Tutorial_1Character.gen.cpp.obj"
+"D:\Videos\UE4 C++ Course\Projects\Tutorial\UE_CPP_Tutorial_1\Intermediate\Build\Win64\UE4Editor\Development\UE_CPP_Tutorial_1\UE_CPP_Tutorial_1GameMode.gen.cpp.obj"
+"D:\Videos\UE4 C++ Course\Projects\Tutorial\UE_CPP_Tutorial_1\Intermediate\Build\Win64\UE4Editor\Development\UE_CPP_Tutorial_1\UE_CPP_Tutorial_1HUD.gen.cpp.obj"
+"D:\Videos\UE4 C++ Course\Projects\Tutorial\UE_CPP_Tutorial_1\Intermediate\Build\Win64\UE4Editor\Development\UE_CPP_Tutorial_1\UE_CPP_Tutorial_1Projectile.gen.cpp.obj"
+"D:\Videos\UE4 C++ Course\Projects\Tutorial\UE_CPP_Tutorial_1\Intermediate\Build\Win64\UE4Editor\Development\UE_CPP_Tutorial_1\Default.rc2.res"
+/OUT:"D:\Videos\UE4 C++ Course\Projects\Tutorial\UE_CPP_Tutorial_1\Intermediate\Build\Win64\UE4Editor\Development\UE_CPP_Tutorial_1\UE4Editor-UE_CPP_Tutorial_1-8891.lib"

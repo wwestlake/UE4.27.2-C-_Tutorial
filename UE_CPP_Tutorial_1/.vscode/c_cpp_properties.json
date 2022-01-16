@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "UE_CPP_Tutorial_1Editor Editor Win64 Development (UE_CPP_Tutorial_1)",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\.vscode\\compileCommands_UE_CPP_Tutorial_1.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "Win32",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\.vscode\\compileCommands_Default.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "UE_CPP_Tutorial_1",
+			"Path": "D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\Source\\UE_CPP_Tutorial_1.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "UE_CPP_Tutorial_1Editor",
+			"Path": "D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\Source\\UE_CPP_Tutorial_1Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

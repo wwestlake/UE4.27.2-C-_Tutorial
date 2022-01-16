@@ -1,0 +1,57 @@
+[
+	{
+		"file": "D:\\\\Videos\\\\UE4 C++ Course\\\\Projects\\\\Tutorial\\\\UE_CPP_Tutorial_1\\\\Source\\\\UE_CPP_Tutorial_1\\\\UE_CPP_Tutorial_1.Build.cs",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x64\\cl.exe @\"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\.vscode\\compileCommands_UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.210.rsp\"",
+		"directory": "E:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\Videos\\\\UE4 C++ Course\\\\Projects\\\\Tutorial\\\\UE_CPP_Tutorial_1\\\\Source\\\\UE_CPP_Tutorial_1\\\\UE_CPP_Tutorial_1.cpp",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x64\\cl.exe @\"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\.vscode\\compileCommands_UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.210.rsp\"",
+		"directory": "E:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\Videos\\\\UE4 C++ Course\\\\Projects\\\\Tutorial\\\\UE_CPP_Tutorial_1\\\\Source\\\\UE_CPP_Tutorial_1\\\\UE_CPP_Tutorial_1.h",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x64\\cl.exe @\"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\.vscode\\compileCommands_UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.210.rsp\"",
+		"directory": "E:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\Videos\\\\UE4 C++ Course\\\\Projects\\\\Tutorial\\\\UE_CPP_Tutorial_1\\\\Source\\\\UE_CPP_Tutorial_1\\\\UE_CPP_Tutorial_1Character.cpp",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x64\\cl.exe @\"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\.vscode\\compileCommands_UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.210.rsp\"",
+		"directory": "E:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\Videos\\\\UE4 C++ Course\\\\Projects\\\\Tutorial\\\\UE_CPP_Tutorial_1\\\\Source\\\\UE_CPP_Tutorial_1\\\\UE_CPP_Tutorial_1Character.h",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x64\\cl.exe @\"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\.vscode\\compileCommands_UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.210.rsp\"",
+		"directory": "E:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\Videos\\\\UE4 C++ Course\\\\Projects\\\\Tutorial\\\\UE_CPP_Tutorial_1\\\\Source\\\\UE_CPP_Tutorial_1\\\\UE_CPP_Tutorial_1GameMode.cpp",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x64\\cl.exe @\"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\.vscode\\compileCommands_UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.210.rsp\"",
+		"directory": "E:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\Videos\\\\UE4 C++ Course\\\\Projects\\\\Tutorial\\\\UE_CPP_Tutorial_1\\\\Source\\\\UE_CPP_Tutorial_1\\\\UE_CPP_Tutorial_1GameMode.h",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x64\\cl.exe @\"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\.vscode\\compileCommands_UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.210.rsp\"",
+		"directory": "E:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\Videos\\\\UE4 C++ Course\\\\Projects\\\\Tutorial\\\\UE_CPP_Tutorial_1\\\\Source\\\\UE_CPP_Tutorial_1\\\\UE_CPP_Tutorial_1HUD.cpp",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x64\\cl.exe @\"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\.vscode\\compileCommands_UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.210.rsp\"",
+		"directory": "E:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\Videos\\\\UE4 C++ Course\\\\Projects\\\\Tutorial\\\\UE_CPP_Tutorial_1\\\\Source\\\\UE_CPP_Tutorial_1\\\\UE_CPP_Tutorial_1HUD.h",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x64\\cl.exe @\"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\.vscode\\compileCommands_UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.210.rsp\"",
+		"directory": "E:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\Videos\\\\UE4 C++ Course\\\\Projects\\\\Tutorial\\\\UE_CPP_Tutorial_1\\\\Source\\\\UE_CPP_Tutorial_1\\\\UE_CPP_Tutorial_1Projectile.cpp",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x64\\cl.exe @\"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\.vscode\\compileCommands_UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.210.rsp\"",
+		"directory": "E:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\Videos\\\\UE4 C++ Course\\\\Projects\\\\Tutorial\\\\UE_CPP_Tutorial_1\\\\Source\\\\UE_CPP_Tutorial_1\\\\UE_CPP_Tutorial_1Projectile.h",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x64\\cl.exe @\"D:\\Videos\\UE4 C++ Course\\Projects\\Tutorial\\UE_CPP_Tutorial_1\\.vscode\\compileCommands_UE_CPP_Tutorial_1\\UE_CPP_Tutorial_1.210.rsp\"",
+		"directory": "E:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	}
+]

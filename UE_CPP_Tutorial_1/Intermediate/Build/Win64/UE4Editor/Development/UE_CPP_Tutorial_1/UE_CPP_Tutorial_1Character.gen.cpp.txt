@@ -1,0 +1,11 @@
+D:\Videos\UE4 C++ Course\Projects\Tutorial\UE_CPP_Tutorial_1\Intermediate\Build\Win64\UE4Editor\Development\UE_CPP_Tutorial_1\Definitions.UE_CPP_Tutorial_1.h
+E:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+E:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\Videos\UE4 C++ Course\Projects\Tutorial\UE_CPP_Tutorial_1\Source\UE_CPP_Tutorial_1/UE_CPP_Tutorial_1Character.h
+E:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+E:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
+E:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
+E:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+E:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+E:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+D:\Videos\UE4 C++ Course\Projects\Tutorial\UE_CPP_Tutorial_1\Intermediate\Build\Win64\UE4Editor\Inc\UE_CPP_Tutorial_1\UE_CPP_Tutorial_1Character.generated.h
